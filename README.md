@@ -1,13 +1,11 @@
-
-<div align="center">
+<div align="center" id="readme-top">
 
   <h1>Task Tracker CLI</h1>
 
   <p>
-    A simpe CLI task tracker that helps you to track your tasks and manage your to-do list. </p>
+    A simple CLI task tracker that helps you to track your tasks and manage your to-do list. </p>
  <p>Built with Go, this tool is my implementation of the <a href="https://roadmap.sh/projects/task-tracker">Task Tracker</a> challenge from <a href="https://roadmap.sh">roadmap.sh</a>.
   </p>
-
 
 <!-- Badges -->
 <p>
@@ -41,42 +39,43 @@
 <br />
 
 <!-- Table of Contents -->
+
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-	* [Screenshots](#camera-screenshots)
-	* [Tech Stack](#space_invader-tech-stack)
-	* [Features](#dart-features)
+  - [Screenshots](#camera-screenshots)
+  - [Tech Stack](#space_invader-tech-stack)
+  - [Features](#dart-features)
 - [Getting Started](#toolbox-getting-started)
-	* [Prerequisites](#bangbang-prerequisites)
-	* [Installation](#gear-installation)
-	* [Run Locally](#running-run-locally)
+  - [Prerequisites](#bangbang-prerequisites)
+  - [Installation](#gear-installation)
+  - [Run Locally](#running-run-locally)
 - [Usage](#eyes-usage)]
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
 
-
-
 <!-- About the Project -->
+
 ## :star2: About the Project
 
-
 <!-- Screenshots -->
+
 ### :camera: Screenshots
 
 <div align="center">
-  <img src="example-test.png" style="width:600px;height:400px" alt="screenshot" />
+  <img src="img/example-test.png" style="width:600px;height:400px" alt="screenshot" />
 </div>
 
-
 <!-- TechStack -->
-### :space_invader: Tech Stack]
 
-* <a href="https://golang.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="30" height="30"/>[![Go][Go]][Go-url]</a>
+### :space_invader: Tech Stack
+
+- <a href="https://golang.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="30" height="30"/>[![Go][Go]][Go-url]</a>
 
 <!-- Features -->
+
 ### :dart: Features
 
 - Add, Update, and Delete tasks
@@ -89,11 +88,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+
+## :toolbox: Getting Started
 
 <!-- Prerequisites -->
-### :bangbang: Prerequisites\
 
+### :bangbang: Prerequisites\
 
 This project uses Go as its main language. Make sure you have it installed on your machine. If not, you can install it from the official website [here](https://golang.org/).
 
@@ -101,10 +101,8 @@ This project uses Go as its main language. Make sure you have it installed on yo
   go version
 ```
 
-<!-- Installation -->
-### :gear: Installation
-
 <!-- Run Locally -->
+
 ### :running: Run Locally
 
 Clone the project
@@ -128,10 +126,10 @@ build the project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Usage -->
+
 ## :eyes: Usage
 
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
 
 ```bash
 # To see the list of available commands
@@ -157,35 +155,54 @@ task-cli list done
 task-cli list todo
 task-cli list in-progress
 ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contributing -->
+
 ## :wave: Contributing
 
 <a href="https://github.com/vicjeremy/task-cli/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=vicjeremy/task-cli" />
 </a>
 
-
 Contributions are always welcome!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- License -->
+
 ## :warning: License
 
 Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contact -->
+
 ## :handshake: Contact
 
 Vic Jeremy - [@viccjeremy](https://instagram.com/viccjeremy) - [vicjeremyp@gmail.com](mailto:vicjeremyp@gmail.com)
 
 Project Link: [https://github.com/vicjeremy/task-cli](https://github.com/vicjeremy/task-cli)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Acknowledgments -->
+
 ## :gem: Acknowledgements
+
+- [Backend Project ideas from roadmap.sh](https://roadmap.sh/backend/projects)
+
+Packages or Libraries used:
+
+- [strings](https://pkg.go.dev/strings)
+- [fmt](https://pkg.go.dev/fmt)
+- [os](https://pkg.go.dev/os)
+- [strconv](https://pkg.go.dev/strconv)
+- [time](https://pkg.go.dev/time)
+- [encoding/json](https://pkg.go.dev/encoding/json)
+- [log](https://pkg.go.dev/log)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
