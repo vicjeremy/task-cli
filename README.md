@@ -67,7 +67,7 @@
 ### :camera: Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/600x400/example-test.png" alt="screenshot" />
+  <img src="example-test.png" style="width:600px;height:400px" alt="screenshot" />
 </div>
 
 
